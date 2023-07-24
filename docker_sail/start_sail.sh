@@ -39,7 +39,7 @@ echo "Starting sail"
 ./vendor/bin/sail up -d
 sleep 10s
 
-./vendor/bin/sail npm run dev
+./vendor/bin/sail npm run watch
 
 
 exec bash
